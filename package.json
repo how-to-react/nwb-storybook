@@ -21,6 +21,7 @@
     "@storybook/addon-actions": "^3.2.14",
     "@storybook/addon-links": "^3.2.14",
     "@storybook/react": "^3.2.14",
+    "create-nwb-webpack-config": "^1.0.0",
     "nwb": "0.19.x"
   },
   "author": "",

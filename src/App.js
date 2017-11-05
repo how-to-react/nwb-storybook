@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return <div className="App">
       <div className="App-heading App-flex">
-        <h2>Welcome to <span className="App-react">React</span></h2>
+        <h2>Welcome to <span className="App-react">{ this.props.message || 'React'}</span></h2>
       </div>
       <div className="App-instructions App-flex">
         <img className="App-logo" src={require('./react.svg')}/>
