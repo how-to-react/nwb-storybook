@@ -9,13 +9,18 @@
     "start": "nwb serve-react-app",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test:watch": "nwb test-react --server",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.2.14",
+    "@storybook/addon-links": "^3.2.14",
+    "@storybook/react": "^3.2.14",
     "nwb": "0.19.x"
   },
   "author": "",
